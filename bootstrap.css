@@ -1,0 +1,59 @@
+
+.red{
+    color: white;
+    font-size: 12px;
+}
+
+a{
+    font-weight: 500;
+}
+a :hover{
+    text-decoration: underline;
+}
+.contan {
+background-color: rgb(25, 103, 210);
+text-align: center;
+}
+ p{
+    color: black;
+}
+
+h3{
+    color: black;
+    font-weight: bold;   
+}
+
+.card-text{
+    font-size: 14px; 
+    font-style: inherit;
+}
+
+.fa{
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+
+.fa-facebook{
+    background: #3b5998;
+    color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram{
+    background: #ee5590;
+    color: white;
+}
+.tnny{
+    font-size: 10px;
+}
+
+.nav-ite{
+    margin-left: 150px;
+  }

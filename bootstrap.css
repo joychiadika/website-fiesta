@@ -7,6 +7,7 @@
 a{
     font-weight: 500;
 }
+
 a :hover{
     text-decoration: underline;
 }
@@ -57,3 +58,40 @@ h3{
 .nav-ite{
     margin-left: 150px;
   }
+
+
+  @media only screen and (min-width: 320px){
+      .contan{
+          height: 4.5rem;
+          padding-top: 2px;
+      }
+
+      .collap{
+          display: none;
+      }
+  }
+
+  @media only screen and (min-width: 768px){
+    .contan{
+        height: 2rem;
+        padding-top: 2px;
+    }
+
+    .card-text{
+        font-size: 14px;
+    }
+
+    .collap{
+        display: run-in;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .contan{
+        height: 2rem;
+    }
+
+    .collap{
+        display: block;
+    }
+}
